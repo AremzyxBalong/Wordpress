@@ -1,0 +1,77 @@
+/*
+Theme Name: Fairy Lite
+Theme URI: https://www.candidthemes.com/themes/fairy/
+Author: candidthemes
+Author URI: http://www.candidthemes.com/
+Description: Fairy Lite is a free WordPress blog theme. It is the child theme of Fairy. It is masonry layout WordPress blog theme with tons of theme options. It has amazing slider, breadcrumb from Yoast SEO, NavXT and Rank Math, post tags options and many more. It is the enhanced over Fairy theme. Fairy Blog also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option, Mailchimp subscription, and many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sticky sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog. You can also use this theme for news and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today. Demo: https://fairy.candidthemes.com/
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fairy-lite
+Requires PHP: 5.2
+Tested up to: 5.8
+Template: fairy
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, rtl-language-support, footer-widgets, custom-header, three-columns, one-column, left-sidebar, news, blog
+*/
+
+.card-blog-post .fairy-metas {
+	flex-basis: 100%;
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+
+.card-blog-post .card_body {
+	min-width: 50%;
+}
+
+.card_title, .single .card .entry-title {
+	margin-bottom: 5px;
+}
+
+.entry-content-excerpt p {
+	margin-bottom: 10px;
+}
+
+.card-single-article .entry-meta {
+	margin-bottom: 0;
+}
+
+.wp-block-search .wp-block-search__button {
+	padding: 0.6em 2em;
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+	flex: 1;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.wp-block-search .wp-block-search__input {
+	flex-basis: 60%;
+	max-width: 60%;
+	border-radius: 0;
+}
+
+.widget[class*="widget_"] ol {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.widget[class*="widget_"] ul li, .widget[class*="widget_"] ol li {
+	margin-bottom: 0.8em;
+	padding-left: 20px;
+	position: relative;
+}
+
+.widget[class*="widget_"] ul:not(.fairy-menu-social) li:before, .widget[class*="widget_"] ol li:before {
+	content: '\f101';
+	display: inline-block;
+	font-family: 'Fontawesome';
+	position: absolute;
+	left: 0;
+}
+
+.category-label-group.bg-label a {
+	padding: 0.1em 0.4em;
+	border-radius: 3px;
+}
