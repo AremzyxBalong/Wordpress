@@ -1,0 +1,2 @@
+# Wordpress
+Fairy Lite Theme
